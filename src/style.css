@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.background {
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carta {
+  background-color: white;
+  border-radius: 8px;
+  height: 400px;
+  width: 250px;
+}
+
+.naipe1 {
+  font-size: 80px;
+  height: 20%;
+  display: flex;
+  margin-left: 15px;
+}
+
+.naipe2 {
+  font-size: 80px;
+  height: 20%;
+  display: flex;
+  rotate: 180deg;
+  margin-right: 15px;
+}
+
+#numero {
+  font-size: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
